@@ -1,0 +1,52 @@
+:root{
+    --usman:white;
+    /* --blue:brown; */
+}
+div{
+    background: var(--blue);
+}
+h1{
+    color: var(--usman);
+}
+h2{
+    color: var(--usman);
+}
+h3{
+    color: var(--usman);
+}
+
+::selection{
+    background: black;
+    color: white;
+}
+h1::selection{
+    background: white;
+    color: black;
+}
+/* center a div in div  */
+.paren{
+    width: 100vW;
+    height: 100vh;
+    background-color: blue;
+    /* method 1 */
+    /* position: relative; */
+    /* method 2 */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* method 3 */
+    display: grid;
+    place-items: center;
+
+}
+.child{
+    width: 60vw;
+    height: 60vh;
+    background-color: aqua;
+    /* first method */
+    /* position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); */
+    
+}
